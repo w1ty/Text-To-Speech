@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body class="p-5 mb-2 bg-dark text-white  align-middle">
+ <div class="main border p-4 border-danger">
+   <header class="center">تحويل النص الي صوت</header>
+   <form action="get">
+     <div class="mb-3">
+       
+     </div>
+     <div class="mb-3">
+       <label for="exampleFormControlTextarea1" class="form-label">النص المحول</label>
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+     </div>
+     <button class="btn btn-danger center " type="submit">تحويل</button>
+     <br>
+     <p>    </p>
+     <select class="form-select bg-dark text-white p-3" id="language">
+       <option value="ar-SA">العربية</option>
+       <option value="en-US">English (US)</option>
+       <option value="en-GB">English (UK)</option>
+       <option value="fr-FR">Français</option>
+     </select>
+   </form>
+ </div>
+  <script src="main.js"></script>
+</body>
+</html>
